@@ -26,12 +26,12 @@ var options = {
     consume:       0.6,
     logMessages:   100,
     auto: {
-        engine:   {enabled: false},
+        engine:   {enabled: true},
         faith:    {enabled: true, trigger: 0.99},
         festival: {enabled: true},
         hunt:     {enabled: true, trigger: 0.6},
         build: {
-            enabled: true, trigger: 0.75, items: {
+            enabled: true, trigger: 0.60, items: {
                 // science
                 library:        {require: 'wood',        enabled: true},
                 academy:        {require: 'wood',        enabled: true},
@@ -78,6 +78,16 @@ var options = {
                 unicornPasture: {require: false,         enabled: true},
                 ziggurat:       {require: false,         enabled: true},
                 chronosphere:   {require: 'unobtainium', enabled: true}
+                
+                // space
+                sattelite:      {require: 'unobtainium',    enabled: false},
+                spaceStation:   {require: 'unobtainium',    enabled: false},
+                moonOutpost:    {require: 'unobtainium',    enabled: false},
+                moonBase:       {require: 'unobtainium',    enabled: false},
+                planetCracker:  {require: 'unobtainium',    enabled: false},
+                researchVessel: {require: 'unobtainium',    enabled: false},
+                orbitalArray:   {require: 'unobtainium',    enabled: false},
+                sunlifter:      {require: 'unobtainium',    enabled: false},
             }
         },
         craft: {
