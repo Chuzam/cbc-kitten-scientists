@@ -77,7 +77,7 @@ var options = {
                 mint:           {require: false,         enabled: false},
                 unicornPasture: {require: false,         enabled: true},
                 ziggurat:       {require: false,         enabled: true},
-                chronosphere:   {require: 'unobtainium', enabled: true}
+                chronosphere:   {require: 'unobtainium', enabled: true},
                 
                 // space
                 sattelite:      {require: 'unobtainium',    enabled: false},
@@ -87,7 +87,7 @@ var options = {
                 planetCracker:  {require: 'unobtainium',    enabled: false},
                 researchVessel: {require: 'unobtainium',    enabled: false},
                 orbitalArray:   {require: 'unobtainium',    enabled: false},
-                sunlifter:      {require: 'unobtainium',    enabled: false},
+                sunlifter:      {require: 'unobtainium',    enabled: false}
             }
         },
         craft: {
